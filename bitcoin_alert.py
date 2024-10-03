@@ -1,8 +1,8 @@
 import requests, json, time
 from boltiot import boltiot
 
-api_key="2a0c76b4-592f-45e8-ab2c-7ac89c60e14c"
-device_id="BOLT5388904"
+api_key="XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+device_id="BOLTXXXXXXX"
 
 URL="https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD"
 
