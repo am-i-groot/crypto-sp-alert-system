@@ -33,18 +33,22 @@ NOTE: Make sure that your program checks the value of Bitcoin every 30 seconds o
 ## Resources:
 1. Make sure that you have installed the following libraries before your write the Python program.
 
+```
 sudo apt-get update
 sudo pip3 install boltiot
 sudo pip3 install pyOpenSSL ndg-httpsclient pyasn1
 sudo pip3 install 'requests[security]'
-2. Use the following Python function in your program to fetch the current price of Bitcoin. However you will have to replace the URL variable in the code with the URL you obtained in task 1 for the getting the price of Bitcoin in USD.
+```
+2. Use the following Python function in your program to fetch the current price of Bitcoin. However you will have to replace the `URL` variable in the code with the URL you obtained in task 1 for the getting the price of Bitcoin in USD.
 
+```
 def get_bitcoin_price():
   URL = "https://min-api.cryptocompare.com/"# REPLACE WITH CORRECT URL
   response = requests.request("GET ", URL)
   response = json.loads(response.text)
   current_price = response["USD "]
   return current_price
+```
 ## Submitting The Solution:
 This assignment is meant to be a self-study exercise, and you do not have to submit this a solution for this assignment.
 
