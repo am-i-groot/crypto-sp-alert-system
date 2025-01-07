@@ -1,4 +1,4 @@
-# crypto-sp-alert-system
+# Crypto-SP-Alert-System
 Coded for Buzzer to give alerts whenever selling price crosses a barrier that will allow to have Crypto Compare interface for Bitcoin like Cryptocurrency. Executed python codes in Linux (ubuntu) on VMware Workstation 17 Player using multiple libraries.
 
 *THIS PROJECT DOES NOT REQUIRE YOU TO HAVE A BITCOIN WALLET AND/OR PURCHASE/SELL BITCOINS. ALL THE EXTERNAL APIS USED IN THIS PROJECT ARE PUBLIC AND IT IS A PURELY EDUCATIONAL PROJECT.*
